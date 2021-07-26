@@ -5,7 +5,7 @@
     width: 400px;
 }
 #veditor {
-    background-image: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/comment-bg.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/Mu-YanG/cdn@1.0/images/other/comment-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -7834,51 +7834,4 @@ td.hljs-ln-numbers {
 
 @media(max-width:1200px) {
     .toc {display: none;}
-}
-
-.lonely {
-    height: auto;
-}
-.lonelyInner img {
-    border-radius:0;
-    width:121px;
-    height:auto;
-    padding:0;
-    background:none
-}
-.lonelyInner {
-    width:400px;
-    height:800px;
-    padding:10px;
-    background:rgba(0,0,0,.4);
-    top:40px;
-    left:-140px;
-    -webkit-transform:translate3d(0,50px,0);
-    transform:translate3d(0,50px,0);
-    opacity:0
-}
-.lonelyInner:before {
-    content:"";
-    position:absolute;
-    top:-30px;
-    left:50%;
-    margin-left:-15px;
-    border-width:15px;
-    border-style:solid;
-    border-color:transparent transparent rgba(0,0,0,.4) transparent
-}
-.lonelyInner {
-    position:absolute;
-    border-radius:8px;
-    transition:.7s all ease;
-    -webkit-transition:.7s all ease;
-    -moz-transition:.7s all linear;
-    -o-transition:.7s all ease;
-    -ms-transition:.7s all ease
-}
-.lonely:hover .lonelyInner {
-    -webkit-transform:translate3d(0,16px,0);
-    transform:translate3d(0,16px,0);
-    opacity:1;
-    visibility:visible
 }
