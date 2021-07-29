@@ -1,2 +1,4 @@
 # cdn
 static cdn
+
+init
