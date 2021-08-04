@@ -6717,7 +6717,7 @@ progress {
     list-style:none;
 }
 .toc-list {
-    overflow: hidden;
+    overflow: auto;
     margin:0;
     padding-left:10px
 }
